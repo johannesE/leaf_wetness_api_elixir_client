@@ -1,8 +1,8 @@
-defmodule DatabaumLeafWetnessAPI(Dev).Mixfile do
+defmodule DatabaumLeafWetnessAPI.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :databaum_leaf_wetness_api(dev),
+    [app: :databaum_leaf_wetness_api,
      version: "0.0.0",
      elixir: "~> 1.6",
      build_embedded: Mix.env == :prod,
@@ -38,7 +38,7 @@ defmodule DatabaumLeafWetnessAPI(Dev).Mixfile do
 
    defp package() do
     [
-      name: "databaum_leaf_wetness_api(dev)",
+      name: "databaum_leaf_wetness_api",
       files: ~w(lib mix.exs README* LICENSE*),
       licenses: [""]
     ]

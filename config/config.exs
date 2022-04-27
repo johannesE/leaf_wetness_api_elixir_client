@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :databaum_leaf_wetness_api_(dev), key: :value
+#     config :databaum_leaf_wetness_api, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:databaum_leaf_wetness_api_(dev), :key)
+#     Application.get_env(:databaum_leaf_wetness_api, :key)
 #
 # Or configure a 3rd-party app:
 #
