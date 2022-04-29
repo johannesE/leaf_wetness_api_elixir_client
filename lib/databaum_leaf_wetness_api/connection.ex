@@ -10,7 +10,7 @@ defmodule DatabaumLeafWetnessAPI.Connection do
   use Tesla
 
   # Add any middleware here (authentication)
-  plug Tesla.Middleware.BaseUrl, "http://localhost"
+  plug Tesla.Middleware.BaseUrl, "https://leaf.databaum.ch"
   plug Tesla.Middleware.Headers, [{"user-agent", "Elixir"}]
   plug Tesla.Middleware.EncodeJson, engine: Poison
 
