@@ -1,6 +1,8 @@
+.formatter.exs
 .gitignore
 README.md
 config/config.exs
+config/runtime.exs
 lib/databaum_leaf_wetness_api/api/authentication.ex
 lib/databaum_leaf_wetness_api/api/prediction.ex
 lib/databaum_leaf_wetness_api/api/users.ex
@@ -11,10 +13,10 @@ lib/databaum_leaf_wetness_api/model/leaf_wetness_measurement.ex
 lib/databaum_leaf_wetness_api/model/leaf_wetness_prediction_request.ex
 lib/databaum_leaf_wetness_api/model/leaf_wetness_prediction_response.ex
 lib/databaum_leaf_wetness_api/model/location.ex
+lib/databaum_leaf_wetness_api/model/location_1_inner.ex
 lib/databaum_leaf_wetness_api/model/token_response.ex
 lib/databaum_leaf_wetness_api/model/user_response.ex
 lib/databaum_leaf_wetness_api/model/validation_error.ex
-lib/databaum_leaf_wetness_api/model/validation_error_loc_inner.ex
 lib/databaum_leaf_wetness_api/request_builder.ex
 mix.exs
 test/test_helper.exs
