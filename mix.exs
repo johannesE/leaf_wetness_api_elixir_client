@@ -32,7 +32,7 @@ defmodule DatabaumLeafWetnessAPI.Mixfile do
   defp deps do
     [
       {:tesla, "~> 1.2"},
-      {:poison, "~> 3.0"}
+      {:poison, "~> 5.0"}
     ]
   end
 
